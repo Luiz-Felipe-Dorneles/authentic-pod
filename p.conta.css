@@ -1,0 +1,231 @@
+#logo{
+    width: 150px;
+    height: 100px;
+}
+ 
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+ 
+}
+ 
+#navbar{
+    display: flex;
+    padding: 15px;
+}
+ 
+ul{
+    list-style-type: none;
+}
+ 
+li{
+    display: inline;
+    margin-right: 20px;
+}
+ 
+#but-1 > li > a{
+    text-decoration: none;
+    color: white;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+ 
+#but-2 > li > a{
+    text-decoration: none;
+    color: white;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+ 
+#but-1{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    border: none;
+    background-color: #3c5ba4;
+    height: 45px;
+    font-size: 20px;
+    border-radius: 20px;
+    padding: 5px;
+}
+ 
+#but-1:hover{
+    background-color: #3c5ba4c4;
+    transition: 0.3s;
+}
+ 
+#but-2:hover{
+    background-color: #38b6ffb7;
+    transition: 0.3s;
+}
+ 
+#but-2{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    border: none;
+    background-color: #38b6ff;
+    height: 45px;
+    font-size: 20px;
+    border-radius: 20px;
+    padding: 5px;
+}
+ 
+#navbar-2{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+ 
+#navbar-2 > ul > li{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+ 
+#navbar-2 > ul > li > a{
+    text-decoration: none;
+    color: black;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+ 
+#navbar-2 > ul > li > a:hover{
+    text-decoration: underline;
+    transition: 0.5s;
+ 
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.base {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+}
+
+img {
+    grid-row: 1/8;
+    grid-column: 1/6;
+    height: 550px;
+    width: 700px;
+}
+
+.ti {
+    grid-row: 1/2;
+    grid-column: 8/12;
+    margin-top: 15%;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    padding-bottom: 5px;
+}
+
+.h3 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    grid-row: 1/2;
+    grid-column: 8/13; 
+    margin-top: 20%;
+    font-size: 80%;
+    padding-top:15px;
+}
+
+ 
+.form {
+    grid-row: 2/8;
+    grid-column: 8/12;
+}
+ input {
+    margin-bottom: 2%;
+ }
+
+ .ti{
+    margin-bottom: 10px;
+    color:#3c5ba4
+ }
+
+ #mail{
+    border: none;
+    background-color: rgb(238, 231, 231);
+    height:35px;
+    width: 250px;
+    border-radius: 10px;
+    padding: 5px;
+ }
+
+ #fname{
+    border: none;
+    background-color: rgb(238, 231, 231);
+    height:35px;
+    width: 250px;
+    border-radius: 10px;
+    padding: 5px;
+ }
+
+ #pwd{
+    border: none;
+    background-color: rgb(238, 231, 231);
+    height:35px;
+    width: 250px;
+    border-radius: 10px;
+    padding: 5px;    
+ }
+
+ #button{
+    border: none;
+    background-color: rgb(238, 231, 231);
+    height:40px;
+    width: 260px;
+    border-radius: 10px;
+    padding: 10px;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    margin-top: 15px;
+ }
+
+ #button:hover{
+    color:white;
+    background-color: #3c5ba4c4;
+    transition: 0.5s;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    
+ }
+
+ #no{
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    
+ }
+
+ #ema{
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+ }
+
+ #se{
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+ }
+
+ #date{
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+ }
+
+ 
